@@ -7,9 +7,18 @@
     color: hsl(228, 45%, 44%); 
 }
 
+html {
+    height: 100%;
+}
+
 body {
+    height: 100%;
     font-family: "Outfit";
-    background-color: lightgray;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-container {
